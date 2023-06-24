@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364)!important;
+}
+
+.header-home{
+    padding: 0.25rem 1rem;
+    padding-top: 3rem;
+}
+.btn-fab{
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    min-height: 100%;
+    color: #fff;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    
+}
+
+.list-items{
+    width: 100%;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(109, 109, 109, 0.446);
+    border-radius: 1rem;
+    margin: 1rem 0;
+    padding: 1rem 0.75rem;
+    color: #333;
+    font-size: 13px;
+    background-color: rgba(255, 255, 255, 0.897)!important;
+    
+}
+.item-name{
+    width: 50%;
+    font-weight: 900;
+}
+.item-date{
+    width: 20%;
+    font-size: 11px;
+    color: gray;
+}
+.item p{
+    color: #333;
+}
+
+
+
+/*                    add */
+.form{
+    text-align: start;
+    width: 100%;
+    margin: 1rem 0;
+    
+}
+.form p{
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    font-weight: bold;
+}
+.form input,textarea{
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    color: #333!important;
+    padding: 1rem 0.75rem;
+    border-radius: 1rem;
+}
+/* more  */
+.header{
+    position:fixed;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364)!important;
+    padding: 1rem;
+    padding-top: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px #fff solid;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+.header p{
+    color: #fff;
+    margin: 0 1rem;
+    font-size: 16px;
+    font-weight: bold;
+}
+.todo{
+    margin-top: 6rem;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.btns .button{
+    font-family: fantasy!important;
+    letter-spacing: 2px!important;
+}
